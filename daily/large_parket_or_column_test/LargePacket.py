@@ -2,10 +2,11 @@
 # @Time    : 2019/8/9 AM10:31
 # @Author  : zhaohongjie@actionsky.com
 #todo multiple queries
-import pymysql
 import argparse
 
-from SQLContext import SQLContext
+import pymysql
+
+from large_parket_or_column_test.SQLContext import SQLContext
 
 
 def large_packet_test(size_in_byte, conn, sqlContext=None):
